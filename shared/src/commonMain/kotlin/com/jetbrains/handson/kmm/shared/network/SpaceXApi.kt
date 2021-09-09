@@ -12,6 +12,7 @@ class SpaceXApi {
             serializer = KotlinxSerializer(
                 kotlinx.serialization.json.Json {
                     ignoreUnknownKeys = true
+                    useAlternativeNames = false
                 }
             )
         }

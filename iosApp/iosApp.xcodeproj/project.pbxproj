@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
 		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
+		7EF5586D26EA62B8000B8A69 /* RocketLaunchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF5586C26EA62B8000B8A69 /* RocketLaunchRow.swift */; };
+		7EF5587026EA668B000B8A69 /* RocketLaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF5586F26EA668B000B8A69 /* RocketLaunchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		7555FF7B242A565900829871 /* iosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7555FF82242A565900829871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7555FF8C242A565B00829871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EF5586C26EA62B8000B8A69 /* RocketLaunchRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketLaunchRow.swift; sourceTree = "<group>"; };
+		7EF5586F26EA668B000B8A69 /* RocketLaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketLaunchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 		7555FF7D242A565900829871 /* iosApp */ = {
 			isa = PBXGroup;
 			children = (
+				7EF5586E26EA666F000B8A69 /* ViewModel */,
+				7EF5586B26EA62A1000B8A69 /* View */,
 				7555FF82242A565900829871 /* ContentView.swift */,
 				7555FF8C242A565B00829871 /* Info.plist */,
 				2152FB032600AC8F00CF470E /* iOSApp.swift */,
@@ -74,6 +80,22 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EF5586B26EA62A1000B8A69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7EF5586C26EA62B8000B8A69 /* RocketLaunchRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7EF5586E26EA666F000B8A69 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7EF5586F26EA668B000B8A69 /* RocketLaunchViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +188,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EF5586D26EA62B8000B8A69 /* RocketLaunchRow.swift in Sources */,
+				7EF5587026EA668B000B8A69 /* RocketLaunchViewModel.swift in Sources */,
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
 			);
